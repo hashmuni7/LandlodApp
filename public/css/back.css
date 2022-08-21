@@ -1,0 +1,8 @@
+body {
+    background: url("../img/optime.svg") !important;
+    color: blue !important;
+}
+
+#log {
+    font-size: 4em;
+}

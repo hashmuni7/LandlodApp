@@ -1,0 +1,128 @@
+/* Add here all your CSS customizations */
+
+.search {
+	width: 0px;
+}
+
+.nav-form{
+	width: 700px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.yearTbl{
+	font-size: 1em;
+}
+
+.capitalize{
+	text-transform: capitalize;
+}
+
+.ajax-load{
+	cursor: wait !important;
+}
+
+.btn-primary{
+	background-color: #071935;
+	border-color: #071935;
+}
+
+.head-tag{
+	color: #007bff;
+	display: block;
+	line-height: 1.334;
+}
+
+.body-tag{
+	font-size: 1rem;
+	display: block;
+	line-height: 1.334;
+}
+
+.stag{
+	margin-bottom: 4px;
+}
+
+
+
+
+
+.r-input{
+	outline: 0;
+	border-width: 0 0 1px;
+	border-color: black;
+	border-radius: 0;
+	
+	background-color: white;
+	
+}
+
+.r-input[type='name']{
+	
+	background-color: white;
+	font-size: 2em !important;
+	text-align: center !important;
+	height: 1em;
+	
+	
+}
+
+.f-input{
+	outline: 0;
+	border-width: 0 0 1px;
+	border-color: black;
+	border-radius: 0;
+	
+	background-color: white;
+	
+}
+
+.f-input[type='name']{
+	
+	background-color: white;
+	font-size: 1.7em !important;
+	text-align: center !important;
+	height: 1em;
+	
+	
+}
+
+.has-unpaid-balance{
+	color: red;
+}
+
+
+.body-sign .card-sign .card-title-sign .title {
+	background-color: #071935;;
+}
+.body-sign .card-sign .card-body {
+	border-top: 5px solid #071935;
+}
+ul.nav-main li a {
+	color: #071935;
+}
+html.sidebar-light:not(.dark) ul.nav-main li a {
+	color: #071935;
+}
+
+/*
+	Several of the built-in dynamic components use Alpine JS, so to remove flickers on page load, make sure you have
+
+	[x-cloak] {
+		display: none;
+	}
+	somewhere in your CSS
+*/
+[x-cloak] {
+	display: none;
+}
+
+.sortable:hover {
+	display: block;
+}
+
+
+
+
