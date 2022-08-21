@@ -9,14 +9,14 @@
 
 		<title></title>	
 
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Porto - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta name="keywords" content="Rent Payment Platform" />
+		<meta name="description" content="Rent Payment Platform">
+		<meta name="author" content="hashim-kabuye">
 
 		<!-- Favicon -->
         <link rel="icon" href="{{ URL::asset('img/small-logo.ico') }}"  type="image/x-icon" />
-		<link rel="shortcut icon" href="{{ URL::asset('guest/img/favicon.ico" type="image/x-icon')}}" />
-		<link rel="apple-touch-icon" href="{{ URL::asset('guest/img/apple-touch-icon.png')}}">
+		<link rel="shortcut icon" href="{{ URL::asset('img/small-logo.ico" type="image/x-icon')}}" />
+		<link rel="apple-touch-icon" href="{{ URL::asset('img/small-logo.ico')}}">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">

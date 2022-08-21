@@ -42,7 +42,10 @@ class PaymentsToSpace extends DataTableComponent
                     ->format(function($value){
                         return $this->ugx($value);
                     }),
-            Column::make('Receipt No', 'rentpaymenttxnid'),
+            Column::make('Receipt No', 'rentpaymenttxnid')
+                ->format(function($value, $column, $row) {
+                    return  $column->rentpaymenttxnid; // get the name of receipt
+                }),
             Column::make('Property', 'rentpaymenttxnid')
                 ->format(function($value, $column, $row) {
                             return  $column->property; // get the name of property
