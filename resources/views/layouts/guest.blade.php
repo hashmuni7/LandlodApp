@@ -65,7 +65,7 @@
                                         <div class="header-logo">
                                             <a href="{{ url('/') }}">
                                                 
-                                                <img alt="Landlod App" width="170" height="45" src="{{URL::asset('guest/img/logos/landlod.png')}}">
+                                                <img alt="Landlod App" width="170" height="45" src="{{URL::asset('img/landlod.png')}}">
                                             </a>
                                         </div>
                                     </div>
