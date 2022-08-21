@@ -257,7 +257,7 @@
 
         
         @livewireScripts
-        <script src="{{ URL::asset(mix('js/app.js')) }}"  data-turbolinks-track="reload"></script>
+        <script src="{{ URL::asset('js/app.js') }}"  data-turbolinks-track="reload"></script>
         <script src="{{ URL::asset('js/turbo.js') }}" data-turbolinks-eval="false" data-turbo-eval="false"></script>
         <script src="{{ URL::asset('js/sweetalert2.all.min.js') }}"></script>
         <!-- start of js content -->
